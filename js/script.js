@@ -100,7 +100,7 @@ alert('Welcome again  ' + yourName);
 
 
 
-
+//solution #1
 // let luckyNumber = prompt('guess what is my luckey number?');
 // luckyNumber = Number(luckyNumber);
 // for (let i = 0; i <= 2; i++) {
@@ -119,6 +119,9 @@ alert('Welcome again  ' + yourName);
 //     }
 // }
 
+
+
+//solution #2
 
 let luckyNumber = Number(prompt('guess what is my luckey number?'));
 for (let i = 0; i < 4; i++) {
