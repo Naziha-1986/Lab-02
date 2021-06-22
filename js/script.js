@@ -21,32 +21,40 @@ alert('let\'s play Guessing game');
 //         alert("wrong answer");
 //         break
 // }
-//  let userAge = Number(prompt('what is my age?'));
-// /if (userAge == 34) {
+
+
+// let userAge = Number(prompt('what is my age?'));
+// if (userAge == 34) {
 //     alert('WOW you know it!!!!!');
 //     /*console.log("age=",userAge);*/
-//  } else if (userAge < 34) {
-//    alert('mmmmmm too young');
-//    /*console.log("age=",userAge);*/
-// } else {
-//   alert("tooooo old!!!!!!!!!!!");
+// } else if (userAge < 34) {
+//     alert('mmmmmm too young');
 //     /*console.log("age=",userAge);*/
-//  }
+// } else {
+//     alert("tooooo old!!!!!!!!!!!");
+//     /*console.log("age=",userAge);*/
+// }
 
+
+let n =0;
 
 
 let userCountry = prompt('am i come from Jordan? yes or no');
 if (userCountry.toLowerCase() == "yes") {
     alert('right answer!!!');
+    n++;
     /*console.log('i am from america',userCountry);*/
 } else {
     alert('wrong answer');
     /*console.log('i am from america',userCountry);*/
 }
 
+
+
 let userReligin = prompt('am i muslim? yes or no');
 if (userReligin.toLowerCase() == "yes") {
     alert('right answer!!!');
+    n++;
     /*console.log('i am  muslim',userReligin);*/
 } else {
     alert('wrong answer');
@@ -58,30 +66,35 @@ if (userReligin.toLowerCase() == "yes") {
 let userStatus = prompt('am i married? yes or no');
 if (userStatus.toLowerCase() == "yes") {
     alert('right answer!!!');
+    n++;
     /*console.log('i am married',userStatus);*/
 } else {
     alert('wrong answer');
     /*console.log('i am married',userStatus);*/
 }
+
 
 let userFood = prompt('is Shawerma my favorite food ? yes or no');
 if (userStatus.toLowerCase() == "yes") {
     alert('right answer!!!');
+    n++;
     /*console.log('favorite food is shawerma',userFood);*/
 } else {
     alert('wrong answer');
     /*console.log('favorite food is shawerma',userFood);*/
 }
 
+
+
 let userBook = prompt('is one hundrer years of solitude my favorite book ? yes or no');
 if (userStatus.toLowerCase() == "yes") {
     alert('right answer!!!');
+    n++;
     /*console.log('favorite food is shawerma',userBook);*/
 } else {
     alert('wrong answer');
     /*console.log('one hundrer years of solitude is my favorite book',userBook);*/
 }
-
 alert('Welcome again  ' + yourName);
 
 
@@ -93,6 +106,7 @@ luckyNumber = Number(luckyNumber);
 for (let i = 0; i <= 2; i++) {
     if (luckyNumber === 14) {
         alert("it is right");
+        n++;
     } else if (luckyNumber > 14) {
         alert('too high');
         luckyNumber = prompt('guess what is my luckey number?');
@@ -111,6 +125,7 @@ let drinkType = prompt('guess what are my fav drink?');
 for (let i = 0; i <= drinks.length; i++) {
     if (drinkType === drinks[0] || drinkType === drinks[1] || drinkType === drinks[2] || drinkType === drinks[3]) {
         alert('right answer');
+        n++;
         break;
     } else {
         alert('guess again');
@@ -121,29 +136,4 @@ for (let i = 0; i <= drinks.length; i++) {
 alert("by the way, my favorite drink is:'cola', 'coffee', 'tea', 'water'");
 
 
-
-
-
-// let score = 0
-//     if(userCountry === yes && userReligin === yes && userFood === yes && userStatus === yes &&userBook===yes) {
-//         alert('score =', score +5, '/5');
-// } else if (userCountry === no && userReligin === no && userFood === no && userStatus === no &&userBook===no){
-//     alert('score =', score, '/5');
-// }else if(userCountry === yes && userReligin ===yes && userFood === no && userStatus === no &&userBook===no
-
-// )
-//     alert('score=', score[1], '/1')
-// }
-// if (userReligin === "yes") {
-//     alert('score=', score[3], "/2");
-// } else {
-//     alert('score=', score[1], '/2')
-// }
-// }
-// if()
-// }
-
-// if {userReligin==="yes"&& userFood==="yes"&&userStatus==="yes"&&userBook==="yes")
-//     {
-//     alert(score=score);
-// }
+alert(" By the way:you have answered  "+n+" out of 7 questions correctly");
