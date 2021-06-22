@@ -1,20 +1,24 @@
 h1{
-    text-align: center;border:2px royalblue;background-color: violet;border: 22px royalblue ;
+    text-align: center;border:2px royalblue;background-color: violet;border: 22px royalblue ;;
 
 }
 h2{
     text-align: center;
+    color: lightgrey;
 
 }
 
-ol{
+ol {
     list-style: decimal;
     padding: 20px;
+    color: lime;
+    background-color: brown;
 
 }
 
-ul li{
-  list-style: square;
-    color: lawngreen;
+ul {
+    list-style: square;
+    color: rgb(78, 11, 185);
     padding: 20px;
+    background-color: rgb(173, 132, 159);
 }

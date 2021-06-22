@@ -88,36 +88,36 @@ if (userReligin.toLowerCase() == "yes") {
 
 
 
-//  let luckyNumber = prompt('guess what is my luckey number?');
-//  luckyNumber = Number(luckyNumber);
-//  for (let i = 0; i <= 2; i++) {
-//     if (luckyNumber === 14) {
-//          alert("it is right");
-//     } else if (luckyNumber > 14) {
-//          alert('too high');
-//          luckyNumber = prompt('guess what is my luckey number?');
-//         luckyNumber = Number(luckyNumber);
-//      } else {
-//          alert('too low');
-//         luckyNumber = prompt('guess what is my luckey number?');
-//         luckyNumber = Number(luckyNumber);
-//     }
-//  }
+ let luckyNumber = prompt('guess what is my luckey number?');
+ luckyNumber = Number(luckyNumber);
+ for (let i = 0; i <= 2; i++) {
+    if (luckyNumber === 14) {
+         alert("it is right");
+    } else if (luckyNumber > 14) {
+         alert('too high');
+         luckyNumber = prompt('guess what is my luckey number?');
+        luckyNumber = Number(luckyNumber);
+     } else {
+         alert('too low');
+        luckyNumber = prompt('guess what is my luckey number?');
+        luckyNumber = Number(luckyNumber);
+    }
+ }
 
 
 
-// let drinks = ['cola', 'coffee', 'tea', 'water'];
-// let drinkType = prompt('guess what are my fav drink?');
-// for (let i = 0; i <= drinks.length; i++) {
-//     if (drinkType === drinks[0] || drinkType === drinks[1] || drinkType === drinks[2] || drinkType === drinks[3]) {
-//         alert('right answer');
-//         break;
-//     } else {
-//         alert('guess again');
-//         drinkType = prompt("guess what are my fav drink");
+let drinks = ['cola', 'coffee', 'tea', 'water'];
+let drinkType = prompt('guess what are my fav drink?');
+for (let i = 0; i <= drinks.length; i++) {
+    if (drinkType === drinks[0] || drinkType === drinks[1] || drinkType === drinks[2] || drinkType === drinks[3]) {
+        alert('right answer');
+        break;
+    } else {
+        alert('guess again');
+        drinkType = prompt("guess what are my fav drink");
 
 
-//     }
+    }
 
 // }
 // alert("by the way, my favorite drink is:'cola', 'coffee', 'tea', 'water'");
@@ -126,22 +126,22 @@ if (userReligin.toLowerCase() == "yes") {
 
 
 
-let score = 0
-    if(userCountry === yes && userReligin === yes && userFood === yes && userStatus === yes &&userBook===yes) {
-        alert('score =', score +5, '/5');
-} else if (userCountry === no && userReligin === no && userFood === no && userStatus === no &&userBook===no){
-    alert('score =', score, '/5');
-}else if(userCountry === yes && userReligin ===yes && userFood === no && userStatus === no &&userBook===no
+// let score = 0
+//     if(userCountry === yes && userReligin === yes && userFood === yes && userStatus === yes &&userBook===yes) {
+//         alert('score =', score +5, '/5');
+// } else if (userCountry === no && userReligin === no && userFood === no && userStatus === no &&userBook===no){
+//     alert('score =', score, '/5');
+// }else if(userCountry === yes && userReligin ===yes && userFood === no && userStatus === no &&userBook===no
 
-)
-    alert('score=', score[1], '/1')
-}
-if (userReligin === "yes") {
-    alert('score=', score[3], "/2");
-} else {
-    alert('score=', score[1], '/2')
-}
-}
+// )
+//     alert('score=', score[1], '/1')
+// }
+// if (userReligin === "yes") {
+//     alert('score=', score[3], "/2");
+// } else {
+//     alert('score=', score[1], '/2')
+// }
+// }
 // if()
 // }
 
