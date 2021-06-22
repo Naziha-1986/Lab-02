@@ -1,12 +1,12 @@
 'use strict';
 
-//alert("Hi everyone and Welcome to my web page");
-// alert('my name is Naziha Qawasmeh');
+alert("Hi everyone and Welcome to my web page");
+alert('my name is Naziha Qawasmeh');
 
-// let yourName = prompt('What is your name?');
-// alert('Welcome  ' + yourName);
-// alert('I want to ask you some questions to know how do you see me.we will do that by a game');
-// alert('let\'s play Guessing game');
+let yourName = prompt('What is your name?');
+alert('Welcome  ' + yourName);
+alert('I want to ask you some questions to know how do you see me.we will do that by a game');
+alert('let\'s play Guessing game');
 
 
 // let userGender = prompt("what is my gender?male\ female");
@@ -55,54 +55,54 @@ if (userReligin.toLowerCase() == "yes") {
 
 
 
-//  let userStatus = prompt('am i married? yes or no');
-//  if (userStatus.toLowerCase() == "yes") {
-//      alert('right answer!!!');
-//      /*console.log('i am married',userStatus);*/
-//  } else {
-//      alert('wrong answer');
-//      /*console.log('i am married',userStatus);*/
-//  }
+let userStatus = prompt('am i married? yes or no');
+if (userStatus.toLowerCase() == "yes") {
+    alert('right answer!!!');
+    /*console.log('i am married',userStatus);*/
+} else {
+    alert('wrong answer');
+    /*console.log('i am married',userStatus);*/
+}
 
-// let userFood = prompt('is Shawerma my favorite food ? yes or no');
-//  if (userStatus.toLowerCase() == "yes") {
-//      alert('right answer!!!');
-//      /*console.log('favorite food is shawerma',userFood);*/
-//  } else {
-//      alert('wrong answer');
-//      /*console.log('favorite food is shawerma',userFood);*/
-//  }
+let userFood = prompt('is Shawerma my favorite food ? yes or no');
+if (userStatus.toLowerCase() == "yes") {
+    alert('right answer!!!');
+    /*console.log('favorite food is shawerma',userFood);*/
+} else {
+    alert('wrong answer');
+    /*console.log('favorite food is shawerma',userFood);*/
+}
 
-//  let userBook = prompt('is one hundrer years of solitude my favorite book ? yes or no');
-//  if (userStatus.toLowerCase() == "yes") {
-//      alert('right answer!!!');
-//      /*console.log('favorite food is shawerma',userBook);*/
-//  } else {
-//      alert('wrong answer');
-//     /*console.log('one hundrer years of solitude is my favorite book',userBook);*/
-//  }
+let userBook = prompt('is one hundrer years of solitude my favorite book ? yes or no');
+if (userStatus.toLowerCase() == "yes") {
+    alert('right answer!!!');
+    /*console.log('favorite food is shawerma',userBook);*/
+} else {
+    alert('wrong answer');
+    /*console.log('one hundrer years of solitude is my favorite book',userBook);*/
+}
 
-//  alert('Welcome again  ' + yourName);
-
-
+alert('Welcome again  ' + yourName);
 
 
 
- let luckyNumber = prompt('guess what is my luckey number?');
- luckyNumber = Number(luckyNumber);
- for (let i = 0; i <= 2; i++) {
+
+
+let luckyNumber = prompt('guess what is my luckey number?');
+luckyNumber = Number(luckyNumber);
+for (let i = 0; i <= 2; i++) {
     if (luckyNumber === 14) {
-         alert("it is right");
+        alert("it is right");
     } else if (luckyNumber > 14) {
-         alert('too high');
-         luckyNumber = prompt('guess what is my luckey number?');
+        alert('too high');
+        luckyNumber = prompt('guess what is my luckey number?');
         luckyNumber = Number(luckyNumber);
-     } else {
-         alert('too low');
+    } else {
+        alert('too low');
         luckyNumber = prompt('guess what is my luckey number?');
         luckyNumber = Number(luckyNumber);
     }
- }
+}
 
 
 
@@ -115,12 +115,10 @@ for (let i = 0; i <= drinks.length; i++) {
     } else {
         alert('guess again');
         drinkType = prompt("guess what are my fav drink");
-
-
     }
 
-// }
-// alert("by the way, my favorite drink is:'cola', 'coffee', 'tea', 'water'");
+}
+alert("by the way, my favorite drink is:'cola', 'coffee', 'tea', 'water'");
 
 
 
