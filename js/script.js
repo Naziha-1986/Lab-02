@@ -36,7 +36,7 @@ alert('let\'s play Guessing game');
 // }
 
 
-let n =0;
+let n = 0;
 
 
 let userCountry = prompt('am i come from Jordan? yes or no');
@@ -101,20 +101,37 @@ alert('Welcome again  ' + yourName);
 
 
 
-let luckyNumber = prompt('guess what is my luckey number?');
-luckyNumber = Number(luckyNumber);
-for (let i = 0; i <= 2; i++) {
+// let luckyNumber = prompt('guess what is my luckey number?');
+// luckyNumber = Number(luckyNumber);
+// for (let i = 0; i <= 2; i++) {
+//     if (luckyNumber === 14) {
+//         alert("that\'s right !!!!!!!");
+//         n++;
+//     } else if (luckyNumber > 14) {
+//         alert('too high');
+//         luckyNumber = prompt('guess what is my luckey number?');
+//         luckyNumber = Number(luckyNumber);
+
+//     } else {
+//         alert('too low');
+//         luckyNumber = prompt('guess what is my luckey number?');
+//         luckyNumber = Number(luckyNumber);
+//     }
+// }
+
+
+let luckyNumber = Number(prompt('guess what is my luckey number?'));
+for (let i = 0; i < 4; i++) {
     if (luckyNumber === 14) {
-        alert("it is right");
+        alert('that\'s right!!!!!!!!!!!!');
         n++;
-    } else if (luckyNumber > 14) {
-        alert('too high');
-        luckyNumber = prompt('guess what is my luckey number?');
-        luckyNumber = Number(luckyNumber);
+
+    } else if (luckyNumber < 14) {
+        alert('you should guess a higher number');
+        luckyNumber=Number(prompt('guess what is my luckey number?'));
     } else {
-        alert('too low');
-        luckyNumber = prompt('guess what is my luckey number?');
-        luckyNumber = Number(luckyNumber);
+        alert('you should guess a lower number');
+        luckyNumber=Number(prompt('guess what is my luckey number?')); 
     }
 }
 
@@ -136,4 +153,4 @@ for (let i = 0; i <= drinks.length; i++) {
 alert("by the way, my favorite drink is:'cola', 'coffee', 'tea', 'water'");
 
 
-alert(" By the way:you have answered  "+n+" out of 7 questions correctly");
+alert(" By the way:you have answered  " + n + " out of 7 questions correctly");
