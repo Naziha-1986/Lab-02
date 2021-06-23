@@ -131,13 +131,13 @@ for (let i = 0; i < 3; i++) {
 
     } else if (luckyNumber < 14) {
         alert('you should guess a higher number');
-        luckyNumber=Number(prompt('guess what is my luckey number?'));
+        luckyNumber = Number(prompt('guess what is my luckey number?'));
     } else {
         alert('you should guess a lower number');
-        luckyNumber=Number(prompt('guess what is my luckey number?')); 
-        
+        luckyNumber = Number(prompt('guess what is my luckey number?'));
+
     }
-    
+
 }
 
 alert('By the way: my lucky number is=14');
@@ -156,6 +156,7 @@ for (let i = 0; i <= drinks.length; i++) {
 
 }
 alert("by the way, my favorite drink is:'cola', 'coffee', 'tea', 'water'");
+
 
 
 alert(" By the way:you have answered  " + n + " out of 7 questions correctly");
