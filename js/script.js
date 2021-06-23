@@ -124,7 +124,7 @@ alert('Welcome again  ' + yourName);
 //solution #2
 
 let luckyNumber = Number(prompt('guess what is my luckey number?'));
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < 3; i++) {
     if (luckyNumber === 14) {
         alert('that\'s right!!!!!!!!!!!!');
         n++;
@@ -135,10 +135,12 @@ for (let i = 0; i < 4; i++) {
     } else {
         alert('you should guess a lower number');
         luckyNumber=Number(prompt('guess what is my luckey number?')); 
+        
     }
+    
 }
 
-
+alert('By the way: my lucky number is=14');
 
 let drinks = ['cola', 'coffee', 'tea', 'water'];
 let drinkType = prompt('guess what are my fav drink?');
