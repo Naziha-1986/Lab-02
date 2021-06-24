@@ -1,8 +1,9 @@
+
 h1{
     text-align: center;
     border:2px royalblue;
     background-color: violet;
-    border: 22px royalblue ;
+    position: sticky;
 
 
 }
@@ -11,12 +12,14 @@ h2{
     text-align: center;
     text-shadow: rgb(155, 115, 56);
     color: rgb(109, 31, 31);
+ 
 
 
 }
 
 div{
     background-color: rgb(228, 210, 213);
+    position: sticky;
 }
 
 .leen{
