@@ -38,76 +38,76 @@ alert('let\'s play Guessing game');
 
 let n = 0;
 
-function q1(){
+function q1() {
   let userCountry = prompt('am i come from Jordan? yes or no');
   if (userCountry.toLowerCase() == 'yes') {
     alert('right answer!!!');
     n++;
-  /*console.log('i am from america',userCountry);*/
+    /*console.log('i am from america',userCountry);*/
   } else {
     alert('wrong answer');
-  /*console.log('i am from america',userCountry);*/
+    /*console.log('i am from america',userCountry);*/
   }
 }
 
 q1();
 
-function q2(){
+function q2() {
   let userReligin = prompt('am i muslim? yes or no');
   if (userReligin.toLowerCase() == 'yes') {
     alert('right answer!!!');
     n++;
-  /*console.log('i am  muslim',userReligin);*/
+    /*console.log('i am  muslim',userReligin);*/
   } else {
     alert('wrong answer');
-  /*console.log('i am  muslim',userReligin);*/
+    /*console.log('i am  muslim',userReligin);*/
   }
 }
 
 q2();
 
 
-function q3(){
+function q3() {
   let userStatus = prompt('am i married? yes or no');
   if (userStatus.toLowerCase() == 'yes') {
     alert('right answer!!!');
     n++;
-  /*console.log('i am married',userStatus);*/
+    /*console.log('i am married',userStatus);*/
   } else {
     alert('wrong answer');
-  /*console.log('i am married',userStatus);*/
+    /*console.log('i am married',userStatus);*/
   }
 }
 
 q3();
 
 
-function q4(){
+function q4() {
   let userFood = prompt('is Shawerma my favorite food ? yes or no');
   if (userFood.toLowerCase() == 'yes') {
     alert('right answer!!!');
     n++;
-  /*console.log('favorite food is shawerma',userFood);*/
+    /*console.log('favorite food is shawerma',userFood);*/
   } else {
     alert('wrong answer');
-  /*console.log('favorite food is shawerma',userFood);*/
+    /*console.log('favorite food is shawerma',userFood);*/
   }
 }
 
 q4();
 
 
-function q5(){
+function q5() {
 
 
   let userBook = prompt('is one hundrer years of solitude my favorite book ? yes or no');
   if (userBook.toLowerCase() == 'yes') {
     alert('right answer!!!');
     n++;
-  /*console.log('favorite food is shawerma',userBook);*/
+    /*console.log('favorite food is shawerma',userBook);*/
   } else {
     alert('wrong answer');
-  /*console.log('one hundrer years of solitude is my favorite book',userBook);*/
+    /*console.log('one hundrer years of solitude is my favorite book',userBook);*/
   }
 }
 
@@ -142,7 +142,7 @@ alert('Welcome again  ' + yourName);
 //solution #2
 
 
-function q6(){
+function q6() {
   let luckyNumber = Number(prompt('guess what is my luckey number?'));
   for (let i = 0; i < 3; i++) {
     if (luckyNumber === 14) {
@@ -166,7 +166,7 @@ q6();
 alert('By the way: my lucky number is=14');
 
 
-function q7(){
+function q7() {
   let drinks = ['cola', 'coffee', 'tea', 'water'];
   let drinkType = prompt('guess what are my fav drink?');
   for (let i = 0; i <= drinks.length; i++) {
@@ -189,3 +189,27 @@ alert('by the way, my favorite drink is:\'cola\', \'coffee\', \'tea\', \'water\'
 
 
 alert(' By the way:you have answered  ' + n + ' out of 7 questions correctly');
+
+
+
+
+
+
+// let number = [100, 20, 33, 45, 44, 37, 10, 2, 3, 5, 15, 12, 31];
+// let even = [];
+// let odd = [];
+// let evenNumber = function (number) {
+//   for (let attempt = 0; attempt < number.length; attempt++) {
+//     if ((number[attempt] % 2) !== 1) {
+//       console.log('odd numbers=' + evenNumber());
+//       return evenNumber;
+//     } else {
+//       console.log('odd =' + evenNumber());
+//       return evenNumber;
+
+//     }
+//   };
+//   evenNumber();
+//   alert(even);
+//   alert(odd);
+// }
